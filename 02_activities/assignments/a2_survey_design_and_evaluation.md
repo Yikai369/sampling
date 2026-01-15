@@ -40,30 +40,36 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `Scenario 1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the survey is to (1) identify and understand the key reasons behind the high turnover rate among employees at the large tech company, and (2) gather suggestions and insights from current and former employees on changes needed to improve employee satisfaction and retention.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All employees currently or recently (within the last 12 months) employed at the large tech company.
+
+Sampling frame: The current HR database of all employees and records of staff who have left the company within the past year (who have valid contact information in the records)
+
+Sampling units: Individual employees (both current and former)
+
+Observational units: Individual survey respondents
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is/was your job title and department at the company?
+2. (For current employees) Are you aware of colleagues who have resigned in the past 12 months? If so, what do you believe were the main reasons for their departure? 
+3. (For current employees) On a scale from 1 (very dissatisfied) to 10 (very satisfied), how satisfied are you with your current working experience at the company?
+4. (For current employees) What specific changes or improvements would most increase your overall job satisfaction? 
+5. (For former employees) What were your primary reasons for leaving the company? 
+6. (For former employees) On a scale from 1 (very dissatisfied) to 10 (very satisfied), how satisfied were you with your job at the company before you left?
+7. (For former employees) What changes, if any, might have influenced you to stay with the company? 
+8. How likely are you to recommend this company as a place to work to others? (1 = Not at all likely, 10 = Extremely likely) 
+9. Please share any additional comments, suggestions, or feedback regarding your experience at the company.
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +77,39 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+    stratified random sampling
+2. Sample size
+    The planned sample size was 20 000 respondents, but 16 149 respondents completed the survey
+3. Target population
+    All individuals aged 15 years and older living in Canada’s ten provinces. Residents of the three territories and full‑time institutional residents were ineligible
+4. Sampling frame
+    The survey frame was created using two different components:  
+        1. Lists of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources 
+        (Telephone companies, Census of population, etc.); 
+        2. The Address Register (AR): List of all dwellings within the ten provinces.
+5. Survey mode(s) 
+    Data were collected via a self‑completed electronic questionnaire (web mode) and an interviewer‑assisted telephone questionnaire. Respondents could complete the survey online using a secure access code or participate by telephone
+6. Timeline
+    between 4 September and 28 December 2018
+7. Response rate
+    41.9 %
+8. Weights
+    Each respondent has a sampling weight, and the adjustments are: first for unequal selection probabilities at the household level (including multiple telephone numbers), then removal of out-of-scope units, followed by a three-stage non-response adjustment, conversion from household weight to person weight using the number of eligible household members, and finally an adjustment for rejective sampling of non-volunteers.
+9. Data processing
+    Responses were captured electronically with built‑in range checks and skip patterns. Open‑ended answers were coded using standard classifications (e.g., occupations, industries). The raw data were cleaned to remove duplicates and out‑of‑scope units, then combined into an analysis file.
+10. Cleaning, imputation, etc
+    using similar respondents to fill missing values
+11. Sources of error
+    sampling errors
+    non-sampling errors:
+        • Coverage error: Households without telephones were not in the frame.
+        • Non‑response error: The response rate was under 50 %.
+        • Measurement error: Potential respondent misreporting 
+12. Limitations, known biases, etc
+     The exclusion of the households without telephone service means the result may not be highly representative of the population.
+13. Link to documentation and any additional sources used
+    https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
 ```
 
 ## Rubric
